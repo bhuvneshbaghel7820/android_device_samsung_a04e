@@ -9,14 +9,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
+# Inherit some common Twrp stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from a04e device
 $(call inherit-product, device/samsung/a04e/device.mk)
 
 PRODUCT_DEVICE := a04e
-PRODUCT_NAME := omni_a04e
+PRODUCT_NAME := twrp_a04e
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A042F
 PRODUCT_MANUFACTURER := samsung
